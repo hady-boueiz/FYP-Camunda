@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Group id",
+      "type": "textfield",
+      "id": "Field_15otw5q",
+      "key": "groupId",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "text": "# Enter Student 1",
+      "type": "text",
+      "id": "Field_13gyo5z"
+    },
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "id": "Field_1oodzty",
+      "key": "firstName1",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Last Name",
+      "type": "textfield",
+      "id": "Field_0per2a9",
+      "key": "lastName1",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Student id",
+      "type": "textfield",
+      "id": "Field_1th0cw2",
+      "key": "matricule1",
+      "validate": {
+        "required": true,
+        "minLength": 6,
+        "maxLength": 6
+      }
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_1uygsqm",
+      "key": "email1",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^([\\w-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([\\w-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$"
+      }
+    },
+    {
+      "label": "Grade",
+      "type": "textfield",
+      "id": "Field_1qi9z51",
+      "key": "grade1",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "/^[+-]?([0-9]+\\.?[0-9]*|\\.[0-9]+)$/"
+      }
+    },
+    {
+      "text": "# Enter Student 2",
+      "type": "text",
+      "id": "Field_0n6tsbx"
+    },
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "id": "Field_1k8fcp0",
+      "key": "firstname2",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Last Name",
+      "type": "textfield",
+      "id": "Field_14gn3qn",
+      "key": "lastName2",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Student id",
+      "type": "textfield",
+      "id": "Field_0m3v8il",
+      "key": "matricule2",
+      "validate": {
+        "required": true,
+        "minLength": 6,
+        "maxLength": 6
+      }
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_1mwx3z8",
+      "key": "email2",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^([\\w-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([\\w-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$"
+      }
+    },
+    {
+      "label": "Grade",
+      "type": "textfield",
+      "id": "Field_1yjyn3y",
+      "key": "grade2",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "/^[+-]?([0-9]+\\.?[0-9]*|\\.[0-9]+)$/"
+      }
+    },
+    {
+      "text": "# Choose choice 1 and 2",
+      "type": "text",
+      "id": "Field_1kkzzqz"
+    },
+    {
+      "values": [
+        {
+          "label": "Murex",
+          "value": "murex"
+        },
+        {
+          "label": "CME",
+          "value": "cme"
+        },
+        {
+          "label": "Javista",
+          "value": "javista"
+        }
+      ],
+      "label": "Choice 1",
+      "type": "select",
+      "id": "Field_1tb95pj",
+      "key": "choice1",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Murex",
+          "value": "murex"
+        },
+        {
+          "label": "CME",
+          "value": "cme"
+        },
+        {
+          "label": "Javista",
+          "value": "javista"
+        }
+      ],
+      "label": "Choice 2",
+      "type": "select",
+      "id": "Field_14itu1f",
+      "key": "choice2",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0h394z0"
+}

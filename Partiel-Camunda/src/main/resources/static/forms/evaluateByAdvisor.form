@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Grading Criteria",
+      "type": "text",
+      "id": "Field_0equy6r"
+    },
+    {
+      "label": "Respect of deadlines",
+      "type": "checkbox",
+      "id": "Field_0cn7kml",
+      "key": "deadlines"
+    },
+    {
+      "label": "Respect of report template",
+      "type": "checkbox",
+      "id": "Field_1lcmn4o",
+      "key": "template"
+    },
+    {
+      "label": "Achievement of functional requirements",
+      "type": "checkbox",
+      "id": "Field_1ebk9mb",
+      "key": "FR"
+    },
+    {
+      "label": "Achievement of non functional requirements",
+      "type": "checkbox",
+      "id": "Field_1svqcga",
+      "key": "NFR"
+    },
+    {
+      "label": "Analysis based on reliable metrics",
+      "type": "checkbox",
+      "id": "Field_19t6fyz",
+      "key": "metrics"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0h394z0"
+}

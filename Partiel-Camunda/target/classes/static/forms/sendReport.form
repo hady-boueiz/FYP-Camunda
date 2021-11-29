@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Upload your report here\n",
+      "type": "text",
+      "id": "Field_0ixinle"
+    },
+    {
+      "label": "Send Report",
+      "type": "textfield",
+      "id": "Field_1rk0zl5",
+      "key": "sendReport",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0h394z0"
+}
